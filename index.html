@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Gowun+Batang:wght@400;700&family=Jua&display=swap');
+    </style>    
+  <meta name="naver-site-verification" content="e596902b2cd551c9a4e0a829f01e5a048406cdc6" />
+  <meta name="google-site-verification" content="b2Xb8mSDuA8yBTYLflHSUGzLwfJADpKS2DGjnk0iP5A" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>여고생들을 위한 MBTI Test</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/qna.css">
+  <link rel="stylesheet" href="./css/result.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <section id="main" class="mx-auto my-5 py-5 px-10">
+      <h1>여고생들을 위한<br> 성격유형테스트</h1>
+      <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+        <img src="img/mainimg.png" alt="mainImage" class="img-fluid">
+      </div>
+      <p>-made by 원주여자고등학교 코딩동아리 (CO;DE) 이보연, 함서영-<br><br>
+        <strong>시작하기 버튼을 눌러 시작해주세요.</strong>
+      </p>
+      <button type="button" class="btn btn-outline-danger mt-3" onclick="js:begin()">시작하기</button>
+    </section>
+    <section id="qna">
+      <div class="status mx-auto mt-5">
+        <div class="statusBar">
+        </div>
+      </div>
+      <div class="qBox my-5 py-3 mx-auto">
+        <!-- retrying
+          
+      
+      !-->  </div>
+      <div class="answerBox">
+      </div>
+    </section>
+    <section id="result" class="mx-auto my-5 py-5 px-3">
+      <h2>검사 결과</h2>
+    
+      <div class="resultname"> 결과 이름 </div>
+      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto"></div>
+      <h3>추천하는 공부 방법</h3>
+      <div class="resultDesc">결과 설명</div>
+      <h3>어울릴만한 직업</h3>
+      <div class="resultJob">어울리는 직업</div>
+      <button onClick="window.location.reload()">다시해보기</button>
+  </section>
+    <script src="./js/data.js" charset="utf-8"></script>
+    <script src="./js/start.js" charset="utf-8"></script>
+  </div>
+</body>
+
+</html>

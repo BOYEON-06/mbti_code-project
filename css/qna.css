@@ -4,19 +4,22 @@
   
   .qBox {
     background-color: whitesmoke;
+    color: #484045;
     text-align: center;
     border-radius: 20px;
-    font-size: 24px;
+    border : 4px solid #DACFD9;
+    font-size: 19px;
+    font-weight: 700;
     width: 80%
   }
   
   .answerList {
     background-color: whitesmoke;
     border-radius: 20px;
+    border: 0px;
     display: block;
     width: 80%;
-    border: 0px;
-    font-size: 20px;
+    font-size: 15px;
   }
   
   .answerList:hover, .answerList:focus {

@@ -199,14 +199,18 @@ function setResult(){
   const resultName = document.querySelector('.resultname');
   resultName.innerHTML = infoList[point].mbti;
 
- //var resultImg = document.createElement('img');
-  //const imgDiv = document.querySelector('#resultImg');
-  //var imgURL = 'img/'+ infoList + '.png';
-  //resultImg.src = imgURL;
-  //resultImg.alt = final_num;
-  //resultImg.classList.add('img-fluid');
-  ///imgDiv.appendChild(resultImg);
+  var resultImg = document.createElement('img');
+  const imgDiv = document.querySelector('#resultImg');
+  var imgURL = 'img/'+ point + '.png';
+  resultImg.src = imgURL;
+  resultImg.alt = point;
+  resultImg.classList.add('img-fluid');
+  imgDiv.appendChild(resultImg);
 
   const resultDesc = document.querySelector('.resultDesc');
   resultDesc.innerHTML = infoList[point].desc;
+
+  const resultJob = document.querySelector('.resultJob');
+  resultJob.innerHTML = infoList[point].job;
 }
+
